@@ -1,0 +1,45 @@
+:root{
+    --strip-bg : #131921;
+    --strip-border: #3b4149;
+    --search-bg: #febd69;
+    --strip-bottom-bg: #232f3e;
+}
+
+.gap-10{
+    gap: 10px;
+}
+
+.gap-15{
+    gap: 15px;
+}
+
+.gap-30{
+    gap: 30px;
+}
+
+
+footer{
+    background-color: var(--strip-bottom-bg);
+}
+
+.footer1{
+    border-bottom: 1px solid var(--strip-border);
+}
+
+.footer3{
+    border-top: 1px solid var(--strip-border);
+}
+
+.subscribe{
+    background-color: var(--strip-bottom-bg);
+    color: white;
+    cursor: pointer;
+}
+
+.footer-icon:hover{
+    cursor: pointer;
+}
+
+.footer-img{
+    height: 40px;
+}

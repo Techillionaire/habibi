@@ -13,7 +13,7 @@ const Header = () => {
               <p className='text-white mb-0'>Free Shipping Over $100 & Free Returns</p>
             </div>
             <div className="col-6">
-              <p className='text-end text-white mb-0'>Hotline: <a className='text-white' href="tel:+2348102350810">+(234) 810-235-0810 </a> </p>
+              <p className='text-end text-white mb-0'>Hotline: <a className='text-white' href="tel:+2348102350810">+(234) 810-235-0810</a> </p>
             </div>
           </div>
         </div>
@@ -24,7 +24,7 @@ const Header = () => {
           <div className="row ">
             <div className="col-2">
               <h2>
-                <Link className='text-white'>Shoppers</Link>
+                <Link className='text-white'>Teflon-lux</Link>
               </h2>
             </div>
 
@@ -84,7 +84,7 @@ const Header = () => {
                       <img src="./assets/menu.svg" className='menu-img me-2' alt="" />
                       <span className='menu-text me-2'> Shop Categories</span>
                     </button>
-                    <ul class="dropdown-menu rounded-0 mt-2">
+                    <ul class="dropdown-menu mt-2">
                       <li><Link className="dropdown-item text-white" to="/">Action</Link></li>
                       <li><Link className="dropdown-item text-white" to="/">Another action</Link></li>
                       <li><Link className="dropdown-item text-white" to="/">Something else here</Link></li>
@@ -95,7 +95,7 @@ const Header = () => {
                 <div className='menu-links'>
                   <div className="d-flex align-items-center gap-15">
                     <NavLink className="nav-link" to={`/`}>Home</NavLink>
-                    <NavLink className="nav-link" to={`/store`}>Our Store</NavLink>
+                    <NavLink className="nav-link" to={`/store`}>Store</NavLink>
                     <NavLink className="nav-link" to={`/blog`}>Blogs</NavLink>
                     <NavLink className="nav-link" to={`/contact`}>Contact</NavLink>
                   </div>
