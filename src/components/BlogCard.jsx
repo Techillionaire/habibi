@@ -4,7 +4,7 @@ import "../styles/blogCard.css"
 
 const BlogCard = () => {
 return (
-        <div className="blog-card">
+        <div className="blog-card mt-2">
             <div className='card-image'>
                 <img src="assets/blog-1.jpg" className='img-fluid w-100' alt="blog" />
             </div>

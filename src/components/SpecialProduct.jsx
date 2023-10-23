@@ -3,13 +3,14 @@ import ReactStars from "react-rating-stars-component";
 import { Link } from 'react-router-dom';
 const SpecialProduct = () => {
   return (
-    <div className='col-6 mb-3'>
+    <div className='mb-3 col-md-6 col-lg-6'>
         <div className="special-product-card">
-            <div className='d-flex justify-content-between'>
-                <div>
+            <div className='row'>
+                <div className='col-md-12 col-sm-6 col-lg-6  '>
                     <img src="assets/watch.jpg" className='img-fluid' alt="watch" />
                 </div>
-                <div className='special-product-content'>
+
+                <div className='col-md-12 col-sm-6 col-lg-6 special-product-content'>
                     <h5 className='brand'>Havels</h5>
                     <h6 className='title '>
                         Samsung Galaxy Note10+ Mobile Phone; Sim...
