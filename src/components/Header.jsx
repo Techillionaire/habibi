@@ -24,7 +24,7 @@ const Header = () => {
           <div className="row ">
             <div className="col-2">
               <h2>
-                <Link className='text-white'>Teflon-lux</Link>
+                <Link to={`/`} className='text-white'>Teflon-lux</Link>
               </h2>
             </div>
 
