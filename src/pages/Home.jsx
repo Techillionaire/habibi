@@ -6,12 +6,14 @@ import ProductCard from '../components/ProductCard';
 import SpecialProduct from '../components/SpecialProduct';
 // import { Carousel } from 'react-responsive-carousel';
 import "../styles/home.css"
+import Meta from '../components/Meta';
 
 
 
 const Home = () => {
   return (
     <>
+      <Meta title={"Teflon's Lux Haven | Home"} />
       <section className="home-wrapper-1 py-5">
         <div className="container-xxl">
 

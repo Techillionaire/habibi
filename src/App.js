@@ -7,6 +7,7 @@ import Contact from './pages/Contact'
 import Store from './pages/Store'
 import Blog from './pages/Blog'
 import Fetch from './components/Fetch'
+import "./App.css"
 
 const App = () => {
   return (
